@@ -1,4 +1,4 @@
-#### Phase Unwrapping with Deep Image Prior (PUDIP)
+## Phase Unwrapping with Deep Image Prior (PUDIP)
 
 README still under construction.
 
@@ -43,13 +43,13 @@ Return:
 UnwrapPhase: reconstructed phase (size is H*W)
 
 Keys of parser:
-## Parameters for data
+#### Parameters for data
 RealData : true or false (change the way the scalar bias is removed)
 ImagSize : Size of wrapped (unwrapped) phase iamge (H*W)
 FileName : Name of data (for saved files)
 wrapPhase: 2D wrapped phase in the range of [-pi,pi] (size is H*W)
 
-## Parameters for Network
+#### Parameters for Network
 LR           : Learning rate (default:0.01)
 NoiseType    : 'Normal' or 'Std': adds noise.normal_()*reg_noise_std or noise.std()*reg_noise_std (default: 'Normal') to input at each iteration
 reg_noise_std: Weight for additional noise added to input (default:0.01)
@@ -67,7 +67,7 @@ gpu          : If true will run the code on GPU
 gpuID        : GPU ID
 main_dir     : Main path (e.g.,'./')
 
-## Parameters for network architecture
+#### Parameters for network architecture
 convfilt        = [128,128,128,128,128]
 kernelsize      = 3
 actifuncrelu    = True
@@ -82,7 +82,7 @@ NET_TYPE        = 'skip'       # skip, ResNet, UNet,Decoder
 upsample_mode   = 'bilinear'     # 'nearest', 'bilinear'; for UNet, deconv is valid
 pad             = 'zero'       # 'reflection', 'none','zero'
 
-##             MAIN PARAMETERS (default)
+####             MAIN PARAMETERS (default)
 
 SaveRes   = True   # Save figures and result
 ItUpOut   = 100    # Compute Loss, SNR, (save if SaveRes) every ItUpOut iterations
