@@ -50,22 +50,22 @@ FileName : Name of data (for saved files)
 wrapPhase: 2D wrapped phase in the range of [-pi,pi] (size is H*W)
 
 #### Parameters for Network
-LR           : Learning rate (default:0.01)
-NoiseType    : 'Normal' or 'Std': adds noise.normal_()*reg_noise_std or noise.std()*reg_noise_std (default: 'Normal') to input at each iteration
-reg_noise_std: Weight for additional noise added to input (default:0.01)
-input_num    : Number of input image, 1 for normal and multiples for sequential case (default:1)
-input_depth  : Input channel (default:128)
-output_depth : Output channel (default:1)
-num_iter     : Total number of iterations
-reg_loss     : If true will compute the weighted loss: sum(wn.*Unwraploss)
-update_ite   : The weights wn will be updated at every update_ite iteration (valid when the reg_loss is true)
-boundWeights : the (1/weights) min and max value for the loss weights (see paper)
-GDeps        : The constant (GDeps**2) added to loss to make the BP stable (e.g. 1e-9)
-Plot         : If true will plot the intermediate results
-show_every   : Iteration for intermediate plotting
-gpu          : If true will run the code on GPU
-gpuID        : GPU ID
-main_dir     : Main path (e.g.,'./')
+*LR           : Learning rate (default:0.01)
+*NoiseType    : 'Normal' or 'Std': adds noise.normal_()*reg_noise_std or noise.std()*reg_noise_std (default: 'Normal') to input at each iteration
+*reg_noise_std: Weight for additional noise added to input (default:0.01)
+*input_num    : Number of input image, 1 for normal and multiples for sequential case (default:1)
+*input_depth  : Input channel (default:128)
+*output_depth : Output channel (default:1)
+*num_iter     : Total number of iterations
+*reg_loss     : If true will compute the weighted loss: sum(wn.*Unwraploss)
+*update_ite   : The weights wn will be updated at every update_ite iteration (valid when the reg_loss is true)
+*boundWeights : the (1/weights) min and max value for the loss weights (see paper)
+*GDeps        : The constant (GDeps^2) added to loss to make the BP stable (e.g. 1e-9)
+*Plot         : If true will plot the intermediate results
+*show_every   : Iteration for intermediate plotting
+*gpu          : If true will run the code on GPU
+*gpuID        : GPU ID
+*main_dir     : Main path (e.g.,'./')
 
 #### Parameters for network architecture
 convfilt        = [128,128,128,128,128]
