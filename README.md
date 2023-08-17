@@ -2,6 +2,8 @@
 
 README still under construction.
 
+Don't hesitate to contact me (Thanh-an Pham) for more information.
+
 Relevant publication:
 
 F. Yang, T. -A. Pham, N. Brandenberg, M. P. Lütolf, J. Ma and M. Unser, "Robust Phase Unwrapping via Deep Image Prior for Quantitative Phase Imaging," in IEEE Transactions on Image Processing, vol. 30, pp. 7025-7037, 2021, doi: 10.1109/TIP.2021.3099956.
