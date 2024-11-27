@@ -1,0 +1,26 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: PUDIP
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Thanh-an
+    family-names: Pham
+    name-particle: Thanh-An
+    email: pham0204@gmail.com
+    orcid: 'https://orcid.org/0000-0001-6231-2569'
+identifiers:
+  - type: url
+    value: 'https://github.com/ThanhAnPham/PUDIP'
+    description: Software repository
+repository-code: 'https://github.com/ThanhAnPham/PUDIP'
+url: 'https://github.com/ThanhAnPham/PUDIP'
+abstract: Phase unwrapping with deep image prior (PUDIP)
+keywords:
+  - phase unwrapping
+  - deep image prior
+license: MIT
